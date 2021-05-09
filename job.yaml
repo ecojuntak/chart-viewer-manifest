@@ -10,7 +10,7 @@ spec:
       restartPolicy: OnFailure
       containers:
         - name: chart-viewer-seeder
-          image: ecojuntak/chart-viewer:v0.0.2
+          image: ecojuntak/chart-viewer:v0.1.0
           imagePullPolicy: Always
           command: ["./chart-viewer"]
           args:
